@@ -5,7 +5,12 @@
   "keywords": [
     "Redux",
     "React",
-    "boilerplate"
+    "boilerplate",
+    "typescript",
+    "husky",
+    "babel",
+    "prettier",
+    "webpack"
   ],
   "author": "0xlup3x",
   "scripts": {

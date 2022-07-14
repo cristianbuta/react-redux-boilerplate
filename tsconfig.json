@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": [
+      "WebWorker",
+      "WebWorker.ImportScripts",
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "~redux": ["src/redux/index"],
+      "~types/*": ["src/types/*"],
+      "~utils/*": ["src/utils/*"],
+      "~components": ["src/components/index"],
+      "~themes/*": ["src/themes/*"],
+      "~images/*": ["src/images/*"],
+      "~icons/*": ["src/images/icons/*"]
+    }
+  },
+  "include": ["src"]
+}

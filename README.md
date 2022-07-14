@@ -32,6 +32,6 @@ I recommend [formatting on save](https://www.robinwieruch.de/how-to-use-prettier
 
 ### Author Notes
 
-I personally do not like Create React App as I believe that as a developer you should be in full control of your project, understand exactly how it's working, understand its cappabilities, limitations, and not spend an entire week fixing it the moment you need to eject.
+I personally do not like [Create React App](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) as I believe that as a developer you should be in full control of your project, understand exactly how it's working, understand its cappabilities, limitations, and not spend an entire week fixing it the moment you need to eject.
 
 _This does not mean CRA is not useful in some scenarios. If you don't have a boilerplate preconfigured and you need to deploy something really fast for a POC/MVP then CRA is a wonderful tool._

@@ -1,17 +1,17 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 interface ISpinnerProps {
-  size?: string;
-  color?: string;
+  size?: string
+  color?: string
 }
 
 export const SpinnerContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-`;
+`
 export const Spinner = styled.div<ISpinnerProps>`
-  color: ${(props) => (props.color ? props.color : "#darkturqoise")};
+  color: ${(props) => (props.color ? props.color : '#darkturqoise')};
   font-size: ${(props) => props.size};
   overflow: hidden;
   width: 1em;
@@ -24,64 +24,58 @@ export const Spinner = styled.div<ISpinnerProps>`
   animation: load6 1.7s infinite ease, round 1.7s infinite ease;
   @-webkit-keyframes load6 {
     0% {
-      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
-        0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em,
+        0 -0.83em 0 -0.477em;
     }
     5%,
     95% {
-      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
-        0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em,
+        0 -0.83em 0 -0.477em;
     }
     10%,
     59% {
-      box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em,
-        -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em,
-        -0.297em -0.775em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em,
+        -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
     }
     20% {
-      box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
-        -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em,
-        -0.749em -0.34em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em,
+        -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
     }
     38% {
-      box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
-        -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em,
-        -0.82em -0.09em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em,
+        -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
     }
     100% {
-      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
-        0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em,
+        0 -0.83em 0 -0.477em;
     }
   }
   @keyframes load6 {
     0% {
-      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
-        0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em,
+        0 -0.83em 0 -0.477em;
     }
     5%,
     95% {
-      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
-        0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em,
+        0 -0.83em 0 -0.477em;
     }
     10%,
     59% {
-      box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em,
-        -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em,
-        -0.297em -0.775em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em,
+        -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
     }
     20% {
-      box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
-        -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em,
-        -0.749em -0.34em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em,
+        -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
     }
     38% {
-      box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
-        -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em,
-        -0.82em -0.09em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em,
+        -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
     }
     100% {
-      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
-        0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em,
+        0 -0.83em 0 -0.477em;
     }
   }
   @-webkit-keyframes round {
@@ -104,4 +98,4 @@ export const Spinner = styled.div<ISpinnerProps>`
       transform: rotate(360deg);
     }
   }
-`;
+`

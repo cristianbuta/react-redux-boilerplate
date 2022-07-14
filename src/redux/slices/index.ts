@@ -1,1 +1,1 @@
-export * from "./loremipsum";
+export * from './loremipsum'

@@ -1,28 +1,5 @@
-export { default as Demo } from "./Demo";
-export * from "./Demo";
-export { default as DemoMenu } from "./DemoMenu";
-export * from "./DemoMenu";
-export { default as DemoContent } from "./DemoContent";
-export { default as Team } from "./Team";
-export { default as InfoBox } from "./InfoBox";
-export { default as DemoMenuOverlay } from "./DemoMenuOverlay";
-export * from "./Buttons";
-export { default as LoadingSpinner } from "./LoadingSpinner";
-export * from "./LoadingSpinner";
-export { default as MainQuestion } from "./MainQuestion";
-export { default as RoadMap } from "./RoadMap";
-export { default as UseCases } from "./UseCases";
-export { default as FileProblem } from "./FileProblem";
-export { default as FractionProblem } from "./FractionProblem";
-export { default as ValueProposition } from "./ValueProposition";
-export { default as ErrorBoundary } from "./ErrorBoundary";
-export { default as ThemeSwitcher } from "./ThemeSwitcher";
-export { default as Footer } from "./Footer";
-export { default as Header } from "./Header";
-export { default as Layout } from "./Layout";
-export { default as Logo } from "./Logo";
-export { default as Mint } from "./Mint";
-export { default as NFTList } from "./NFTList";
-export * from "./NFTList";
-export { default as NFTSingle } from "./NFTSingle";
-export { default as Fission } from "./Fission";
+export { default as LoadingSpinner } from './LoadingSpinner'
+export * from './LoadingSpinner'
+
+export { default as ErrorBoundary } from './ErrorBoundary'
+export { default as Layout } from './Layout'

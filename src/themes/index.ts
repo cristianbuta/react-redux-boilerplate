@@ -1,7 +1,4 @@
-import DARK_THEME from "./dark";
-export * from "./dark";
+import DEFAULT_THEME from './default'
+export * from './default'
 
-import LIGHT_THEME from "./light";
-export * from "./light";
-
-export default [DARK_THEME, LIGHT_THEME];
+export default [DEFAULT_THEME]

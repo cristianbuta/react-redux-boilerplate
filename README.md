@@ -22,6 +22,7 @@ npm run format
 - **Transcompiler:** [Babel](https://babeljs.io/)
 - **Framework:** [React](https://reactjs.org/)
 - **State Management:** [Redux/Redux Toolkit](https://redux.js.org/)
+- **Routing:** [React Router](https://reactrouter.com/)
 - **CSS:** [Styled Components](https://styled-components.com/)
 - **Code Formatter:** [Prettier](https://prettier.io/)
 - **Code Linter:** [ESLint](https://eslint.org/)

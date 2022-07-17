@@ -1,14 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit'
-import { loremIpsumSlice } from './slices'
+import { defaultSlice } from './slices'
+import { defaultApi } from './api'
 
 const store = configureStore({
   reducer: {
-    [loremIpsumSlice.reducerPath]: loremIpsumSlice.reducer,
+    default: defaultSlice.reducer,
+    [defaultApi.reducerPath]: defaultApi.reducer,
   },
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware({
-      serializableCheck: false,
-    }).concat(loremIpsumSlice.middleware),
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(defaultApi.middleware),
 })
 
 export type RootState = ReturnType<typeof store.getState>
